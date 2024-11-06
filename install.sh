@@ -6,6 +6,7 @@ SHELL="zsh"
 
 if [ $(id -u) -e 0 ]; then
 	echo "Don't run as root"
+ 	exit
 fi
 
 mkdir $HBDIR
