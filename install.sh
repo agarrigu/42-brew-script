@@ -4,7 +4,7 @@ HBDIR="$HOME/homebrew"
 SHELLRC="$HOME/.zshrc"
 SHELL="zsh"
 
-if [ $(id -u) -e 0 ]; then
+if [ $(id -u) -eq 0 ]; then
 	echo "Don't run as root"
  	exit
 fi
