@@ -1,7 +1,7 @@
 #!/bin/bash
 
 HBDIR="$HOME/homebrew"
-SHELLRC=".zshrc"
+SHELLRC="$HOME/.zshrc"
 SHELL="zsh"
 
 if [ $(id -u) -e 0 ]; then
