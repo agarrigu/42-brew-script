@@ -1,5 +1,5 @@
 # 42-brew-script
-Easily install brew without sudo in 42 school Linux machines, then you can install anything you want. If you install it in `sgoinfre` you can *really* install anything you want.
+Easily install brew without sudo in 42 school Linux machines, then you can install anything you want with `brew install the-thing-you-want`. If you install it in `sgoinfre` you can *really* install anything you want. The first thing you install might take unusually long as it has to compile a bunch of basic stuff.
 
 ## running
 
